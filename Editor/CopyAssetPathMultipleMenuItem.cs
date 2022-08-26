@@ -6,7 +6,7 @@ namespace Kogane.Internal
 {
     internal static class CopyAssetPathMultipleMenuItem
     {
-        private const string MENU_ITEM_NAME = @"Assets/Copy Path (Multiple) %&c";
+        private const string MENU_ITEM_NAME = @"Assets/Kogane/Copy Path (Multiple) %&c";
 
         [MenuItem( MENU_ITEM_NAME, true )]
         private static bool CanCopy()
