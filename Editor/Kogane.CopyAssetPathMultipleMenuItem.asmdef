@@ -1,5 +1,6 @@
 {
-    "name": "UniAssetPathMultipleCopyer",
+    "name": "Kogane.CopyAssetPathMultipleMenuItem",
+    "rootNamespace": "",
     "references": [],
     "includePlatforms": [
         "Editor"
