@@ -31,7 +31,7 @@ namespace Kogane.Internal
             {
                 var assetPaths = assetGUIDs
                         .Select( x => AssetDatabase.GUIDToAssetPath( x ) )
-                        .OrderBy( x => x )
+                        .OrderBy( x => x, new NaturalComparer() )
                     ;
 
                 var result = string.Join( "\n", assetPaths );

@@ -1,7 +1,9 @@
 {
     "name": "Kogane.CopyAssetPathMultipleMenuItem",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:7686910f9aa31418e9aa092e8e47a655"
+    ],
     "includePlatforms": [
         "Editor"
     ],
